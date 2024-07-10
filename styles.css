@@ -88,6 +88,8 @@
     font-size: 20px;
     color: rgba(13, 19, 33, 0.7);
     background-color: white;
+    
+    
 }
 
   /* Banner-3 */
@@ -194,7 +196,7 @@
     font-weight: bolder;
 }
 .text-icon-2-desc{
-    font-size: 16;
+    font-size: 16px;
     color: white;
     font-weight: lighter;
 }
@@ -209,7 +211,7 @@
 }
 ::placeholder {
     color: rgba(13, 19, 33, 0.4);
-    font-size: 16px;
+    font-size: 24px;
 }
 .feedback-btn{
     width: 120px;
@@ -217,5 +219,16 @@
     font-size: 16px;
     font-weight: bold;
     color: #0d1321;
+    border-radius: 8px;
 }
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(13, 19, 33, 0.03);
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 32px;
+}
+
 
