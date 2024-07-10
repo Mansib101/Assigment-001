@@ -12,6 +12,7 @@
 .text-head{
     font-size: 32px;
     color: #0d1321;
+    font-weight: bolder;
 }
 .text-desc-light{
     font-size: 16px;
@@ -66,12 +67,12 @@
 }
 
 .section-2-2{
-    display: flex;
-    padding: 48px 48px; 
+    display: flex; 
+    padding: 50px;
     justify-content: space-around;
     background-color: white;
     border-radius: 16px;
-    margin-bottom: 30px;
+    margin: 32px;
 }
 .txt-n-btn-1{
     margin-right: 150px;
@@ -91,8 +92,7 @@
 
   /* Banner-3 */
   .banner-3{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 90px 150px 150px 150px;
   }
 
   .banner-3-head{
@@ -117,7 +117,7 @@
     justify-content: center;
     align-items: center;
 }
-.yt-vid{
+.yt-vid{    
     padding: 32px   ;
 }
 
@@ -132,8 +132,9 @@
 
 .banner-4-cards{
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 150px 50px 150px;
 }
 
 .card-1{
@@ -153,14 +154,14 @@
 .card-3{
     width: 30%;
     height: 30%; 
-    border-radius: 16px;
+    border-radius: 16px;    
     background-color: rgba(255, 223, 0, 0.05);
 }
 .card-content{
     padding: 40px;
 }
 .card-title{
-    font-size: 24;
+    font-size: 32px;
     color: #0d1321;
 }
 .card-desc{
@@ -172,3 +173,49 @@
     font-weight: bold;
     font-size: 16px;
 }
+
+  /* Banner-5 */
+
+.banner-5{
+    margin: 0px 150px 180px 150px;
+    height: 313px;
+    background-image: url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}  
+.text-icon-2{
+    padding: 48px 64px 48px 64px;
+    text-align: center;
+}
+.text-icon-2-headline{
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+}
+.text-icon-2-desc{
+    font-size: 16;
+    color: white;
+    font-weight: lighter;
+}
+.section-5-2{
+    padding: 24px 180px 0px 180px;
+}
+
+.input-txt{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+}
+::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+}
+.feedback-btn{
+    width: 120px;
+    height: 57px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d1321;
+}
+
