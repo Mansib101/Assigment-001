@@ -89,5 +89,86 @@
     background-color: white;
 }
 
+  /* Banner-3 */
+  .banner-3{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .banner-3-head{
+    font-size: 32px;
+    color: #0d1321;
+    text-align: center;
+  }
+
+.section-3-1{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%; 
+    margin-bottom: 15px;   
+}
+
+.section-3-2{
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yt-vid{
+    padding: 32px   ;
+}
 
 
+  /* Banner-4 */
+
+.banner-4-desc{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.banner-4-cards{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card-1{
+    width: 30%;
+    height: 30%;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-color: rgba(255, 76, 30, 0.05)
+}
+.card-2{
+    width: 30%;
+    height: 30%;
+    border-radius: 16px;
+    margin-right: 24px;
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.card-3{
+    width: 30%;
+    height: 30%; 
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.card-content{
+    padding: 40px;
+}
+.card-title{
+    font-size: 24;
+    color: #0d1321;
+}
+.card-desc{
+    font-size: 16px;
+    font-weight: normal;
+}
+.card-lm{
+    color: #0d1321;
+    font-weight: bold;
+    font-size: 16px;
+}
